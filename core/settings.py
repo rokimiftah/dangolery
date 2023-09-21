@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    # "APP",
+    "dangolery",
     "corsheaders",
     # "django_browser_reload",
 ]
