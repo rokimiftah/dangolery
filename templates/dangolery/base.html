@@ -9,7 +9,10 @@
     <link rel="shortcut icon"
           href="https://cdn.rokimiftah.id/projects/django/dangolery/favicon.ico"
           type="image/x-icon" />
-    <title>Dangolery</title>
+    <title>
+      {% block title %}
+      {% endblock title %}
+    </title>
   </head>
   <body>
     {% block content %}
