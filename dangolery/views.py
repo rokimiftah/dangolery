@@ -8,3 +8,7 @@ def index(request):
 
 def add(request):
     return render(request, "dangolery/add.html")
+
+
+def view(request):
+    return render(request, "dangolery/view.html")
